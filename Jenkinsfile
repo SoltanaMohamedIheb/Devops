@@ -51,8 +51,8 @@ pipeline {
             steps {
                 script {
                     dir("${WORKSPACE}") {
-                        sh "docker build -t fedinaimi/eventsproject:1.0 -f Dockerfile ."
-                        sh "docker push fedinaimi/eventsproject:1.0"
+                        sh "docker build -t ihebsoltana/eventsproject:1.0 -f Dockerfile ."
+                        sh "docker push ihebsoltana/eventsproject:1.0"
                     }
                 }
             }
